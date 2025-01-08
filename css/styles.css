@@ -61,6 +61,7 @@ img {
 
 .page-nav .link {
   display: block;
+  padding: 24px 0;
   /* padding-top: 20px;
   padding-bottom: 20px; */
 }
@@ -129,8 +130,8 @@ img {
 
 .contacts-list .link {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
  /* .contacts-list .contacts-list-item + .contacts-list-item { 
@@ -237,7 +238,7 @@ img {
  }
 
 /* pattern */
- .visually-hidden {
+ /* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -247,7 +248,7 @@ img {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
- }
+ } */
  
  .third-header {
   font-size: 20px;
