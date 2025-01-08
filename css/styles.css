@@ -107,12 +107,11 @@ img {
 }
 
 .page-nav-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
+  padding-top: 24px;
+  padding-bottom: 24px;
+  list-style-type: none;
 }
-
-.page-nav li {
- list-style-type: none;
- }
 
 /* альтернатива як зробити відступ 40px між li
  .page-nav .page-nav-item + .page-nav-item { 
@@ -269,6 +268,10 @@ img {
   display: flex;
 }
 
+.goals-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .goals-list-item:not(:last-child)  {
  margin-right: 24px;
 }
@@ -322,6 +325,7 @@ img {
  text-align: left;
  padding: 32px 16px;
  border: 1px solid #e7e9fc;
+ border-top: none; 
 }
 
 .partfolio-list {
@@ -334,10 +338,6 @@ img {
   width: calc((100% - 48px) / 3); 
   margin-right: 24px;
   margin-bottom: 48px;
-  border-bottom: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
-  border-left: 1px solid #E7E9FC;
-
 }
 
 .partfolio-list-item:nth-child(3n) {
